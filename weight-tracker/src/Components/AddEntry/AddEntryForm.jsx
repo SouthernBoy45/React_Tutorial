@@ -17,7 +17,7 @@ const AddEntryForm = (props) => {
 
     return ( 
         <form onSubmit={handleSubmit}>
-            <lablel>Weight</lablel>
+            <label>Weight</label>
             <input type= 'number' value={weight} onChange= {(event) => setWeight(parseFloat(event.target.value))}/>
             <label>Date</label>
             <input type = 'date' value={date} onChange= {(event) => setDate(event.target.value)}/>
